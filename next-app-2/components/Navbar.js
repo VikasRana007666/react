@@ -1,9 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
-import Link from "next/link";
-// import bootstrap from "bootstrap";
 
-export default function Home() {
+export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
