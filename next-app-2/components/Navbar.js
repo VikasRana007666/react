@@ -28,8 +28,23 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link active" href={"/post"}>
+              <Link className="nav-link" href={"/post"}>
                 Post
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" href={"/login"}>
+                Login
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" href={"/register"}>
+                Register
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" href={"/profile"}>
+                Profile
               </Link>
             </li>
           </ul>
