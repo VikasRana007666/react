@@ -1,4 +1,9 @@
 export default function Root() {
+  console.log(`Ip Address ----> ${window.location.hostname}`);
+  console.log(`Device Type ----> ${window.navigator.userAgent}`);
+  console.log(`Browser ----> ${window.navigator.userAgent}`);
+  console.log(`User Agent ----> ${window.navigator.userAgent}`);
+
   return (
     <>
       <div id="sidebar">
