@@ -19,7 +19,9 @@ export default function Register() {
         password,
         password_confirmation: passwordConfirmation,
       });
-      console.log(response.data);
+      const data = response.data;
+      console.log(data.data.token);
+      process.env.USER_TOKEN = data.data.token;
     } catch (error) {
       console.log(error);
     }
